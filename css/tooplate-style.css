@@ -415,6 +415,9 @@ b, strong {
   width: 100%;
 }
 
+.img-fluid{
+  border-radius: 10px;
+}
 .contact-form {
   position: relative;
 }
