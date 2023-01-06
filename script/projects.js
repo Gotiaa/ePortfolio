@@ -12,7 +12,7 @@ function getQueryParameter(param) {
 }
 
 async function readTextFile(file) {
-    const response = await fetch(file+".html");
+    const response = await fetch(file + ".html");
     const text = await response.text();
     document.getElementById("content").innerHTML = text;
 }
