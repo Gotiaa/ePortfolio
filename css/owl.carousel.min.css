@@ -10,6 +10,18 @@
     padding: 50px;
 }
 
+@media (max-width: 580px) {
+    .owl-carousel .owl-item {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .owl-carousel .owl-item {
+        padding: 20px;
+    }
+}
+
 .owl-carousel {
     display: none;
     width: 100%;
@@ -58,7 +70,7 @@
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
-    box-shadow: 5px 20px 20px grey;
+    box-shadow: 5px 10px 10px grey;
 }
 
 .owl-carousel .owl-dots.disabled,

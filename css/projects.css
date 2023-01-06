@@ -1,11 +1,11 @@
 section.projects-content {
-    margin-inline-start: 150px;
-    margin-inline-end: 150px;
+    margin-inline-start: 120px;
+    margin-inline-end: 120px;
     margin-block-end: 200px;
 }
 
 p {
-    font-size: 3rem;
+    font-size: 18px;
     /* Set the minimum font size */
 }
 
@@ -28,20 +28,35 @@ img {
     /* Make the image a block-level element */
     margin: auto;
     /* Center the image horizontally */
+    margin-block-start: 50px;
+    margin-block-end: 50px;
 }
 
 h1 {
     text-align: center;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+}
+
+h2{
+    width: 100%;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
 }
 
 img {
-    max-width: 50%;
-    align-items: center;
-    /* Set the maximum width of the image */
+    width: calc(100% - 40px);
 }
 
-@media (max-width: 767px) {
-    img {
-        max-width: 100%;
-    }
+.navbar {
+    transition: all 0.5s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
 }

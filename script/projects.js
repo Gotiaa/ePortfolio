@@ -15,7 +15,6 @@ async function readTextFile(file) {
     const response = await fetch(file+".html");
     const text = await response.text();
     document.getElementById("content").innerHTML = text;
-    rawFile.send(null);
 }
 
 // Get the value of the 'file' query parameter from the URL
