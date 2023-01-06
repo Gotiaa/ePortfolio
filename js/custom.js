@@ -38,7 +38,7 @@
 
 document.getElementById('btn mr-lg-2 custom-btn').addEventListener('click', function () {
   var a = document.createElement('a');
-  a.href = '/assets/cv.pdf';
+  a.href = "cv.pdf";
   a.download = 'cv.pdf';
   a.click();
 });
