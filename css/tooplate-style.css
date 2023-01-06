@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: #212121;
   font-size: 2.8em;
-  margin: 24px 0;
 }
 
 h2 {
@@ -129,10 +128,10 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
-  animation: BottomTotop 4s linear infinite 0s;
+  animation: BottomTotop 6s linear infinite 0s;
 }
 .animated-item:nth-child(2n+2) {
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;

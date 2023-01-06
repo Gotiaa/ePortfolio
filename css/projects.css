@@ -1,0 +1,47 @@
+section.projects-content {
+    margin-inline-start: 150px;
+    margin-inline-end: 150px;
+    margin-block-end: 200px;
+}
+
+p {
+    font-size: 3rem;
+    /* Set the minimum font size */
+}
+
+@media (min-width: 400px) {
+    p {
+        font-size: 1.2rem;
+        /* Increase the font size for wider screens */
+    }
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.4rem;
+        /* Increase the font size for even wider screens */
+    }
+}
+
+img {
+    display: block;
+    /* Make the image a block-level element */
+    margin: auto;
+    /* Center the image horizontally */
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    align-items: center;
+    /* Set the maximum width of the image */
+}
+
+@media (max-width: 767px) {
+    img {
+        max-width: 100%;
+    }
+}
