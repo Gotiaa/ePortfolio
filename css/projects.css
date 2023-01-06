@@ -1,7 +1,15 @@
 section.projects-content {
-    margin-inline-start: 120px;
-    margin-inline-end: 120px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
     margin-block-end: 200px;
+}
+
+@media (min-width: 768px) {
+    section.projects-content {
+        margin-inline-start: 200px;
+        margin-inline-end: 200px;
+        margin-block-end: 200px;
+    }
 }
 
 p {
@@ -16,7 +24,7 @@ p {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1500px) {
     p {
         font-size: 1.4rem;
         /* Increase the font size for even wider screens */
@@ -27,9 +35,16 @@ img {
     display: block;
     /* Make the image a block-level element */
     margin: auto;
-    /* Center the image horizontally */
     margin-block-start: 50px;
     margin-block-end: 50px;
+    /* Center the image horizontally */
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    img {
+        width: 60%;
+    }
 }
 
 h1 {
@@ -38,14 +53,10 @@ h1 {
     margin-block-end: 40px;
 }
 
-h2{
+h2 {
     width: 100%;
     margin-block-start: 40px;
     margin-block-end: 40px;
-}
-
-img {
-    width: calc(100% - 40px);
 }
 
 .navbar {
