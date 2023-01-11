@@ -1,6 +1,6 @@
 section.projects-content {
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
     margin-block-end: 200px;
 }
 
@@ -49,14 +49,14 @@ img {
 
 h1 {
     text-align: center;
-    margin-block-start: 40px;
-    margin-block-end: 40px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
 }
 
 h2 {
     width: 100%;
-    margin-block-start: 40px;
-    margin-block-end: 40px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
 }
 
 .navbar {
@@ -70,4 +70,8 @@ h2 {
 
 .navbar.hidden {
     transform: translateY(-100%);
+}
+
+.container{
+    align-content: center;
 }

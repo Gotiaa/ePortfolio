@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Article</title>
+</head>
+<section class="projects-content">
+    <h1>Ulysse 🔵</h1>
+    <div class="project-info">
+        <img src="../images/project/project_ulysse_canvas.png" class="img-fluid" alt="project image">
+    </div>
+    <div class="col-lg-8 mx-auto">
+        <h2>Le premier projet de mon alternance</h2>
+    </div>
+    <p>J’ai réalisé mon alternance de bac+3 à bac+5 en tant que développeur pour l’Office National des Forêts (ONF).
+        Cette entreprise développe et maintient, en autre, une vingtaine d’applications mobiles utilisées sur le
+        territoire et outre mer par les agents forestiers pour: le maintien, l’entretien, le développement et la
+        pérennisation des forêts de France; Après plusieurs mois de maintenance sur les applications existantes, on m’a
+        confié le développement de la partie cloud d’une application du nom de Ulysse. Cette partie d’application devait
+        se greffer à une application existante et déployée qui sert à mutualiser et uniformiser la sauvegarde de toutes
+        les applications métiers sur les appareils mobiles des agents sur le terrain.
+    </p>
+    <div class="col-lg-8 mx-auto">
+        <h2>ma première application en Kotlin..</h2>
+    </div>
+    <p>Il s’agissait de ma première application en kotlin, nouveau langage standard mis en place par Google depuis 2017
+        pour le développement natif Android. J’avais déjà quelques notions du langage de par un module réalisé en 4eme
+        année mais je n’avais pas réellement d'expérience sur cette technologie. J’ai pris ce projet comme l’opportunité
+        de m’améliorer enfin sur ce langage qui devient progressivement celui le plus recherché dans le domaine du
+        développement mobile natif Android.
+    </p>
+    <div class="col-lg-8 mx-auto">
+        <h2>deux cerveaux valent mieux qu’un</h2>
+    </div>
+    <p>Nous étions deux ce projet, Valentin Lanfranchi, responsable mobile à l’ONF ainsi que moi même en ma qualité de
+        développeur junior. Nous avons réfléchi à deux sur le fonctionnement idéal de la méthode de synchronisation avec
+        les fichiers du cloud pour coller à mieux au besoin exprimé de synchroniser les données métiers dans le cloud de
+        l’entreprise. Valentin m’a aussi beaucoup aidé à structurer mon code en respectant les principes d’architecture
+        dans le code pour correspondre au mieux aux standards Android.
+    </p>
+    <div class="col-lg-8 mx-auto">
+        <h2>des contraintes vite dépassée</h2>
+    </div>
+    <p>La première contrainte que j’ai rencontrée a été de prendre en main l’API ms graph, API de microsoft pour
+        communiquer avec le cloud personnel onedrive, essentielle pour réaliser la fonctionnalité souhaitée, j’ai
+        surmonté cette capacité en mettant en application les bonnes méthodes pour appréhender une nouvelle
+        technologies, méthodes que je décris dans cet article de compétence métier (lien vers l’article du livrable
+        9-B). Bien que nous avions bien prévu les différents cas d’utilisation de la synchronisation avec le cloud nous
+        avons omis quelques cas un peu trop spécifiques que nous nous devions pourtant de couvrir causant ainsi des
+        “contretemps” dans la phase de développement. La non disponibilité de la connexion internet, le manque de
+        stockage libre sur l’appareil, l’annulation par l’utilisateur, les erreurs cotés serveur.. sont autant
+        d’événements bloquant que j’ai rencontrés lors de mes tests au fur et à mesure du développement et autant de
+        correction à devoir apporter à mon code ou de réécriture de méthodes. Une fois tous les cas couverts est venu le
+        temps de l’optimisation.</p>
+    <div class="col-lg-8 mx-auto">
+        <h2>un petit peu d’algorithmique, ça fait pas de mal</h2>
+    </div>
+    <p>L’algorithmique s’est avérée être très importante dans ce projet, j’ai d’ailleurs écrit un article sur
+        l’algorithme en citant ce projet que vous pouvez retrouver ici (lien vers l’article de compétence technique sur
+        l’algorithmique (livrable 9-A)). J’ai optimisé mes algorithmes de synchronisation des données en utilisant au
+        maximum les algorithmes récursifs (un algorithme récursif est un algorithme qui utilise le résultat d’une
+        occurrence précédente de ce même algorithme pour calculer une solution voir. wiki) qui obtiennent généralement
+        de meilleurs résultats pour des langages optimisés tels que Kotlin réduisant ainsi les temps d’exécutions de la
+        synchronisation/restauration de 30%.</p>
+    <div class="col-lg-8 mx-auto">
+        <h2>des testeurs satisfaits, un développeur grandis</h2>
+    </div>
+    <p>l’application a été mise en phase de test sur terrain début avril 2022, et les retours sont très positifs dans
+        l’ensemble. Les testeurs sont satisfaits de la venue de cette fonctionnalité qui était attendue. L’enjeu de
+        cette fonctionnalité était important puisque la sauvegarde/synchronisation permet aux utilisateurs de récupérer
+        leurs données métiers en cas de changement/remplacement de données et ainsi éviter les pertes de données.
+        De mon côté j’ai beaucoup appris de cette réalisation, principalement du point de vue développement pur, en
+        respectant les principes standards de clean architecture, en utilisant des techniques avancées du langage Kotlin
+        et en utilisant des bibliothèques et API que je ne n’avais jamais utilisés (MSgraph, Retrofit, Chunk).</p>
+</section>
+
+</html>
