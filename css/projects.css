@@ -6,9 +6,9 @@ section.projects-content {
 
 @media (min-width: 768px) {
     section.projects-content {
-        margin-inline-start: 200px;
-        margin-inline-end: 200px;
-        margin-block-end: 200px;
+        margin-inline-start: 100px;
+        margin-inline-end: 100px;
+        margin-block-end: 100px;
     }
 }
 

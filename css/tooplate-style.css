@@ -587,3 +587,7 @@ b, strong {
   height: 50px;
   margin: 0 10px;
 }
+
+.img {  
+  border-radius: 15px;
+}
