@@ -1,0 +1,23 @@
+.about-me-content,
+.collapse-button {
+    display: none;
+}
+
+.about-me-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.about-me-link i {
+    margin-right: 5px;
+}
+
+.collapse-link {
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.collapse-link i {
+    margin-right: 5px;
+}
