@@ -14,7 +14,24 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 4rem 0;
+}
+
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: #eee;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+#scroll-top i {
+  font-size: 18px;
 }
 
 .small-text {
