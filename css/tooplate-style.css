@@ -732,6 +732,10 @@ section#project {
   }
 }
 
-section#project h4.section-title {
+section#competence {
+  text-align: center;
+}
+
+section#competence h4.section-title {
   margin-top: 3rem!important;
 }

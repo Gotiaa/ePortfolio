@@ -91,7 +91,7 @@ function getNextArticle() {
             window.location.replace("project.html?file=article_eyetrek");
             break;
         case "article_eyetrek" :
-            window.location.replace("project.html?file=article_eyetrek");
+            window.location.replace("project.html?file=article_ulysse");
             break;
 
         //Default
