@@ -49,9 +49,12 @@ function getPreviousArticle() {
 
         // Réalisations
         case "article_ulysse" :
-            window.location.replace("project.html?file=article_eyetrek");
+            window.location.replace("project.html?file=article_randoapp");
             break;
         case "article_eyetrek" :
+            window.location.replace("project.html?file=article_ulysse");
+            break;
+        case "article_randoapp" :
             window.location.replace("project.html?file=article_eyetrek");
             break;
 
@@ -91,6 +94,9 @@ function getNextArticle() {
             window.location.replace("project.html?file=article_eyetrek");
             break;
         case "article_eyetrek" :
+            window.location.replace("project.html?file=article_randoapp");
+            break;
+        case "article_randoapp" :
             window.location.replace("project.html?file=article_ulysse");
             break;
 
